@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost and Found - Campus Connect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="index.html" class="nav-link"><img src="icons8-home-24.png" alt="">Home</a>
+            <a href="about.html" class="nav-link"><img src="icons8-about-50.png" alt="">About</a>
+            <a href="events.html" class="nav-link"><img src="icons8-event-48.png" alt=""> Events</a>
+            <a href="contact.html" class="nav-link"><img src="icons8-contact-us-50.png" alt=""> Contact</a>
+            <a href="study-group.html" class="nav-link"><img src="icons8-study-64.png" alt=""> Study Group</a>
+            <a href="lostfound.html" class="nav-link"><img src="icons8-open-box-50.png" alt=""> Lost and Found</a>
+            <a href="marketplace.html" class="nav-link"><img src="icons8-cart-24.png" alt=""> Marketplace</a>
+        </div>
+    </nav>
+        
+        <div class="container">
+            <div class="heading">Lost and Found Items</div>
+        
+            <div class="form-section">
+                <h3 class="form-heading">Report a Lost or Found Item</h3>
+                <form id="lostFoundForm" class="lost-found-form">
+                    <label for="itemTitle" class="form-label">Item Name:</label>
+                    <input type="text" id="itemTitle" name="itemTitle" class="form-input" placeholder="Enter the name of the item" required>
+        
+                    <label for="itemDescription" class="form-label">Description:</label>
+                    <textarea id="itemDescription" name="itemDescription" class="form-textarea" rows="4" placeholder="Provide details about the item" required></textarea>
+        
+                    <label for="itemCategory" class="form-label">Item Category:</label>
+                    <select id="itemCategory" name="itemCategory" class="form-select">
+                        <option value="lost">Lost</option>
+                        <option value="found">Found</option>
+                    </select>
+        
+                    <button type="submit" class="form-button">Submit Report</button>
+                </form>
+            </div>
+        
+            <div class="lost-items">
+                <h3 class="section-heading">Lost Items</h3>
+                <div class="item-card">
+                    <div class="item-title">Wallet</div>
+                    <p class="item-description"><strong>Description:</strong> A black leather wallet with cards and cash.</p>
+                    <p class="item-last-seen"><strong>Last seen:</strong> Main Library, January 22, 2025</p>
+                </div>
+                <div class="item-card">
+                    <div class="item-title">Silver Watch</div>
+                    <p class="item-description"><strong>Description:</strong> A silver wristwatch with a broken strap.</p>
+                    <p class="item-last-seen"><strong>Last seen:</strong> Canteen, January 21, 2025</p>
+                </div>
+            </div>
+        
+            <div class="found-items">
+                <h3 class="section-heading">Found Items</h3>
+                <div class="item-card">
+                    <div class="item-title">Laptop Charger</div>
+                    <p class="item-description"><strong>Description:</strong> A black laptop charger, compatible with Dell laptops.</p>
+                    <p class="item-found-on"><strong>Found on:</strong> Computer Lab, January 23, 2025</p>
+                </div>
+                <div class="item-card">
+                    <div class="item-title">Blue Pen</div>
+                    <p class="item-description"><strong>Description:</strong> A blue ink pen with a gold clip.</p>
+                    <p class="item-found-on"><strong>Found on:</strong> Student Lounge, January 20, 2025</p>
+                </div>
+            </div>
+        </div>
+        
+    
+    <footer class="footer">
+        <p class="footer-text">&copy; 2025 Campus Connect | All Rights Reserved
+            <div>
+                <ul class="fl">
+                    <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </p>
+    </footer>
+    
+</body>
+</html>
