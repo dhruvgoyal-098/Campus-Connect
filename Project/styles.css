@@ -54,7 +54,6 @@ body {
 .nav-link img {
     width: 20px;
     height: 20px;
-    margin-right: 5px;
 }
 
 .nav-link:hover {
@@ -318,23 +317,28 @@ body {
 }
 
 @media (max-width: 768px) {
+    .container img {
+        width: 100%;
+        height: 100px;
+    }
+
     .navbar {
         font-size: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: auto;
+        height: 100px;
     }
 
     .nav-links {
         flex: 1 0 30%;
-        padding: 15px;
+        padding: 10px;
         border: 1px solid transparent;
     }
 
     .nav-link {
         text-align: center;
-        padding: 15px;
+        padding: 10px;
         margin: 5px 0;
         border-top: 1px solid #444;
     }
